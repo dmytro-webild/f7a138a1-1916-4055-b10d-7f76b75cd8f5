@@ -32,26 +32,16 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         {
-          name: "Products",
-          id: "products",
-        },
+          name: "Products",          id: "products"},
         {
-          name: "The 23 Flavors",
-          id: "flavors",
-        },
+          name: "The 23 Flavors",          id: "flavors"},
         {
-          name: "Nutrition Mixer",
-          id: "calculator",
-        },
+          name: "Nutrition Mixer",          id: "calculator"},
         {
-          name: "Where to Buy",
-          id: "contact",
-        },
+          name: "Where to Buy",          id: "contact"},
       ]}
       button={{
-        text: "Find a Pepper",
-        href: "#contact",
-      }}
+        text: "Find a Pepper",        href: "#contact"}}
       brandName="Dr Pepper"
     />
   </div>
@@ -64,25 +54,15 @@ export default function LandingPage() {
       imageAlt="Dr Pepper Can"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/young-female-student-walks-through-city-with-coffee-her-hands_169016-66671.jpg",
-          alt: "Happy fan 1",
-        },
+          src: "http://img.b2bpic.net/free-photo/young-female-student-walks-through-city-with-coffee-her-hands_169016-66671.jpg",          alt: "Happy fan 1"},
         {
-          src: "http://img.b2bpic.net/free-photo/portrait-smiling-young-man-showing-beer-glass-camera_23-2148154031.jpg",
-          alt: "Happy fan 2",
-        },
+          src: "http://img.b2bpic.net/free-photo/portrait-smiling-young-man-showing-beer-glass-camera_23-2148154031.jpg",          alt: "Happy fan 2"},
         {
-          src: "http://img.b2bpic.net/free-photo/young-woman-drinking-coffee-city-listening-music-headphones_169016-66419.jpg",
-          alt: "Happy fan 3",
-        },
+          src: "http://img.b2bpic.net/free-photo/young-woman-drinking-coffee-city-listening-music-headphones_169016-66419.jpg",          alt: "Happy fan 3"},
         {
-          src: "http://img.b2bpic.net/free-photo/front-view-smiley-woman-with-soda-can-her-head_23-2148751482.jpg",
-          alt: "Happy fan 4",
-        },
+          src: "http://img.b2bpic.net/free-photo/front-view-smiley-woman-with-soda-can-her-head_23-2148751482.jpg",          alt: "Happy fan 4"},
         {
-          src: "http://img.b2bpic.net/free-photo/young-woman-with-croissant-cup-coffee-city-walk_169016-23318.jpg",
-          alt: "Happy fan 5",
-        },
+          src: "http://img.b2bpic.net/free-photo/young-woman-with-croissant-cup-coffee-city-walk_169016-23318.jpg",          alt: "Happy fan 5"},
       ]}
       avatarText="Join 10M+ loyal fans"
     />
@@ -95,25 +75,13 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          id: "f1",
-          title: "Amaretto",
-          author: "Hint 01",
-          description: "A sweet, nutty warmth that anchors the blend.",
-          imageSrc: "http://img.b2bpic.net/free-photo/view-pink-white-paint-mix_23-2148292471.jpg",
+          id: "f1",          title: "Amaretto",          author: "Hint 01",          description: "A sweet, nutty warmth that anchors the blend.",          imageSrc: "http://img.b2bpic.net/free-photo/view-pink-white-paint-mix_23-2148292471.jpg",          tags: ["sweet", "nutty"]
         },
         {
-          id: "f2",
-          title: "Vanilla",
-          author: "Hint 02",
-          description: "Creamy, smooth notes that soften the bold edges.",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-texture-cream_23-2149409616.jpg",
+          id: "f2",          title: "Vanilla",          author: "Hint 02",          description: "Creamy, smooth notes that soften the bold edges.",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-texture-cream_23-2149409616.jpg",          tags: ["creamy", "smooth"]
         },
         {
-          id: "f3",
-          title: "Allspice",
-          author: "Hint 03",
-          description: "The subtle kick of aromatic spice in every glass.",
-          imageSrc: "http://img.b2bpic.net/free-photo/tossed-colorful-powder-black-backdrop_23-2148209015.jpg",
+          id: "f3",          title: "Allspice",          author: "Hint 03",          description: "The subtle kick of aromatic spice in every glass.",          imageSrc: "http://img.b2bpic.net/free-photo/tossed-colorful-powder-black-backdrop_23-2148209015.jpg",          tags: ["spicy", "aromatic"]
         },
       ]}
       title="The 23 Flavors"
@@ -129,41 +97,17 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",
-          name: "Classic",
-          price: "12pk",
-          imageSrc: "http://img.b2bpic.net/free-photo/composition-juice-bottles-table_23-2148037104.jpg",
-        },
+          id: "p1",          name: "Classic",          price: "12pk",          imageSrc: "http://img.b2bpic.net/free-photo/composition-juice-bottles-table_23-2148037104.jpg"},
         {
-          id: "p2",
-          name: "Cherry",
-          price: "12pk",
-          imageSrc: "http://img.b2bpic.net/free-photo/cherries-bowl-with-jam-cocktail-high-angle-view-wooden_176474-7582.jpg",
-        },
+          id: "p2",          name: "Cherry",          price: "12pk",          imageSrc: "http://img.b2bpic.net/free-photo/cherries-bowl-with-jam-cocktail-high-angle-view-wooden_176474-7582.jpg"},
         {
-          id: "p3",
-          name: "Zero Sugar",
-          price: "12pk",
-          imageSrc: "http://img.b2bpic.net/free-photo/refreshing-drink-with-kiwi-arrangement_23-2150928896.jpg",
-        },
+          id: "p3",          name: "Zero Sugar",          price: "12pk",          imageSrc: "http://img.b2bpic.net/free-photo/refreshing-drink-with-kiwi-arrangement_23-2150928896.jpg"},
         {
-          id: "p4",
-          name: "Cream Soda",
-          price: "12pk",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-sugar-cubes-cocktail-glass-shape-soft-drink-can_23-2148691296.jpg",
-        },
+          id: "p4",          name: "Cream Soda",          price: "12pk",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-sugar-cubes-cocktail-glass-shape-soft-drink-can_23-2148691296.jpg"},
         {
-          id: "p5",
-          name: "Dark Berry",
-          price: "12pk",
-          imageSrc: "http://img.b2bpic.net/free-photo/closeup-heap-fresh-blueberries-small-bucket_181624-59669.jpg",
-        },
+          id: "p5",          name: "Dark Berry",          price: "12pk",          imageSrc: "http://img.b2bpic.net/free-photo/closeup-heap-fresh-blueberries-small-bucket_181624-59669.jpg"},
         {
-          id: "p6",
-          name: "Family Pack",
-          price: "Bundle",
-          imageSrc: "http://img.b2bpic.net/free-photo/glass-cup-fresh-lemonade-with-slices-lemon_114579-88671.jpg",
-        },
+          id: "p6",          name: "Family Pack",          price: "Bundle",          imageSrc: "http://img.b2bpic.net/free-photo/glass-cup-fresh-lemonade-with-slices-lemon_114579-88671.jpg"},
       ]}
       title="Classic Varieties"
       description="Explore the full spectrum of our refreshment lineup."
@@ -178,20 +122,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       metrics={[
         {
-          id: "m1",
-          value: "150",
-          description: "Calories",
-        },
+          id: "m1",          value: "150",          description: "Calories"},
         {
-          id: "m2",
-          value: "39g",
-          description: "Sugar Content",
-        },
+          id: "m2",          value: "39g",          description: "Sugar Content"},
         {
-          id: "m3",
-          value: "41mg",
-          description: "Caffeine",
-        },
+          id: "m3",          value: "41mg",          description: "Caffeine"},
       ]}
       title="Flavor Mixer"
       description="Calculate your nutrition impact in real-time."
@@ -205,59 +140,28 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "t1",
-          name: "Alice M.",
-          role: "Collector",
-          company: "Fan Club",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-with-tasty-kombucha_23-2150210079.jpg",
-        },
+          id: "t1",          name: "Alice M.",          role: "Collector",          company: "Fan Club",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-with-tasty-kombucha_23-2150210079.jpg"},
         {
-          id: "t2",
-          name: "Bob D.",
-          role: "Enthusiast",
-          company: "Pepper Nation",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-pretty-woman-model-holding-teapot_114579-90508.jpg",
-        },
+          id: "t2",          name: "Bob D.",          role: "Enthusiast",          company: "Pepper Nation",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/smiling-pretty-woman-model-holding-teapot_114579-90508.jpg"},
         {
-          id: "t3",
-          name: "Carol S.",
-          role: "Member",
-          company: "Soda Lovers",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-having-fun-food-festival_23-2149500421.jpg",
-        },
+          id: "t3",          name: "Carol S.",          role: "Member",          company: "Soda Lovers",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-having-fun-food-festival_23-2149500421.jpg"},
         {
-          id: "t4",
-          name: "Dan W.",
-          role: "Fan",
-          company: "The Pepper Guys",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/young-pretty-woman-model-holding-teapot_114579-38367.jpg",
-        },
+          id: "t4",          name: "Dan W.",          role: "Fan",          company: "The Pepper Guys",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/young-pretty-woman-model-holding-teapot_114579-38367.jpg"},
         {
-          id: "t5",
-          name: "Eve R.",
-          role: "Subscriber",
-          company: "Global Fans",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-self-portrait-cute-smiling-hipster-black-woman-making-self-portrait_273443-1898.jpg",
-        },
+          id: "t5",          name: "Eve R.",          role: "Subscriber",          company: "Global Fans",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-self-portrait-cute-smiling-hipster-black-woman-making-self-portrait_273443-1898.jpg"},
       ]}
       kpiItems={[
         {
-          value: "10M+",
-          label: "Fans Served",
-        },
+          value: "10M+",          label: "Fans Served"},
         {
-          value: "4.9",
-          label: "Rating",
-        },
+          value: "4.9",          label: "Rating"},
         {
-          value: "125",
-          label: "Years Strong",
-        },
+          value: "125",          label: "Years Strong"},
       ]}
       title="Fan Favorites"
       description="Hear what the loyal Pepper fans have to say."
@@ -269,14 +173,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       names={[
-        "Walmart",
-        "Kroger",
-        "Target",
-        "Costco",
-        "Safeway",
-        "Publix",
-        "Walgreens",
-      ]}
+        "Walmart",        "Kroger",        "Target",        "Costco",        "Safeway",        "Publix",        "Walgreens"]}
       title="Available Everywhere"
       description="Your favorite soda is just a short trip away."
     />
@@ -287,20 +184,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "faq1",
-          title: "Is it prune juice?",
-          content: "No, it's a unique blend of 23 secret flavors.",
-        },
+          id: "faq1",          title: "Is it prune juice?",          content: "No, it's a unique blend of 23 secret flavors."},
         {
-          id: "faq2",
-          title: "Where can I find it?",
-          content: "Check our store locator at the top of the site.",
-        },
+          id: "faq2",          title: "Where can I find it?",          content: "Check our store locator at the top of the site."},
         {
-          id: "faq3",
-          title: "Is it gluten free?",
-          content: "Yes, Dr Pepper is gluten-free.",
-        },
+          id: "faq3",          title: "Is it gluten free?",          content: "Yes, Dr Pepper is gluten-free."},
       ]}
       sideTitle="Questions?"
       faqsAnimation="slide-up"
@@ -311,8 +199,7 @@ export default function LandingPage() {
       <ContactCenter
       useInvertedBackground={true}
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="Find Your Pepper"
       description="Sign up for rewards, updates, and flavor alerts."
       tag="Stay Updated"
@@ -323,42 +210,27 @@ export default function LandingPage() {
       <FooterSimple
       columns={[
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "History",
-              href: "#",
-            },
+              label: "History",              href: "#"},
             {
-              label: "Ethics",
-              href: "#",
-            },
+              label: "Ethics",              href: "#"},
           ],
         },
         {
-          title: "Support",
-          items: [
+          title: "Support",          items: [
             {
-              label: "Contact",
-              href: "#",
-            },
+              label: "Contact",              href: "#"},
             {
-              label: "Compliance",
-              href: "#",
-            },
+              label: "Compliance",              href: "#"},
           ],
         },
         {
-          title: "Legal",
-          items: [
+          title: "Legal",          items: [
             {
-              label: "Privacy",
-              href: "#",
-            },
+              label: "Privacy",              href: "#"},
             {
-              label: "Terms",
-              href: "#",
-            },
+              label: "Terms",              href: "#"},
           ],
         },
       ]}
